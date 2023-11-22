@@ -1,0 +1,70 @@
+body {  
+    background-color: #011425;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://images.pexels.com/photos/2128249/pexels-photo-2128249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #011425;
+    padding: 30px 0;
+    color: #fff;
+}
+
+
+
+header h3 { 
+    margin-top: 0px;
+    margin-left: 0px;
+    font: 45px Gothan HTF Book;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 40%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header :hover{
+    color: #ED1659;
+}
+.centered-nav{
+    text-align: center;
+}
+nav {
+    background-color: #011425;
+    overflow: hidden;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    display: block;
+    color: #29f4d5;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ED1659;
+}
+
+main{
+    background-color: #011425;
+
+}
+
