@@ -1,10 +1,10 @@
-body {  
+body {
     background-color: #011425;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url(https://images.pexels.com/photos/2128249/pexels-photo-2128249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
+}  
+    
 
 .container {
     width: 80%;
@@ -67,4 +67,87 @@ main{
     background-color: #011425;
 
 }
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
 
+h2 {
+    text-align: center;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 40%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}   
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}   
+.titulo1{
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 40%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #011425;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
