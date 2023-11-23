@@ -3,26 +3,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-}  
-    
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
+}     
 header {
     background-color: #011425;
     padding: 30px 0;
-    color: #fff;
+    
 }
 
-
-
 header h3 { 
-    margin-top: 0px;
-    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 15px;
     font: 45px Gothan HTF Book;
     background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 40%, #00fdd0 55%);
     -webkit-background-clip: text;
@@ -81,8 +72,8 @@ h2 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
+    font: 45px Gothan HTF Book;
+    font-size: xx-large;
 }
 
 label {
@@ -94,20 +85,23 @@ label {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 5px;
 }   
 .titulo1{
-    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 40%, #00fdd0 55%);
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 50%, #00fdd0 55%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 .card {
-    width: 300px;
-    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 400px;
+    border: 1px solid #011425;
     border-radius: 8px;
     overflow: hidden;
-    margin: 20px;
+    margin: 30px;
 }
 
 .card img {
@@ -121,19 +115,15 @@ label {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
-
-.card-text {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 10px;
+.card h5{
+    color: #29f4d5;
 }
-
 .price {
     font-size: 20px;
-    color: #007bff;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -143,11 +133,177 @@ label {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background-color: #007bff;
+    background-color: #ED1659;
     color: #fff;
     border-radius: 4px;
 }
-
 .btn:hover {
     background-color: #0056b3;
+}
+.destaques {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.destaque {
+    margin-bottom: 20px;
+}
+
+.destaque img {
+    width: 85%;
+    height: auto;
+    border: 1px solid #ED1659;
+    border-radius: 8px;
+}
+
+.destaque p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+footer{
+    background-color: #262626;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 30%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+ 
+.footer-col .medias-socias a:hover{
+    color: #262626;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #262626;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #262626;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+
+
+
+.container {
+    width: 400px;
+    margin: 10px auto;
+    background-color: #011425;
+    color: #011425;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ED1659;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b6184a;
+}
+.cadastro-h2{
+    font-size: xx-large;
 }
